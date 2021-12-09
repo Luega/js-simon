@@ -11,6 +11,6 @@ for (let i = 0; randomNumbers.length < 5; i++) {
     let number = Math.floor(Math.random() * 100); 
     randomNumbers.push(number);
     // stampo i numeri nel body
-    document.getElementById("container").innerHTML += ` ${number}  `;
+    document.getElementById("container").innerHTML += `${number} `;
 }
 
