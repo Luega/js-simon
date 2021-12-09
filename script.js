@@ -32,10 +32,7 @@ setTimeout(function() {
             userNumbers.push(userNumber);
         }     
     }
-}, 4000);
-
-// stampo il risultato
-setTimeout(function() {
+    // stampo il risultato
     document.getElementById("container").innerHTML = 
     `
     <div>Hai indovinato ${userNumbers.length} numeri.</div> 
