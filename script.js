@@ -14,3 +14,10 @@ for (let i = 0; randomNumbers.length < 5; i++) {
     document.getElementById("container").innerHTML += `${number} `;
 }
 
+// creo il timer per far sperire i numeri
+const timer = setTimeout(vanishNumbers, 3000);
+
+function vanishNumbers() {
+    document.getElementById("container").innerHTML = "";
+}
+
